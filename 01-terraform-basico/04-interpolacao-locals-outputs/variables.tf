@@ -1,3 +1,4 @@
+# Arquivo de variaveis usadas no projeto
 variable "aws_region" {
   type        = string
   description = ""

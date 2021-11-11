@@ -1,3 +1,4 @@
+# Arquivo de declaracao de variaveis
 variable "environment" {
   type        = string
   description = ""
