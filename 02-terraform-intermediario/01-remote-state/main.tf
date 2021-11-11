@@ -1,4 +1,7 @@
-# Bloco core do Terraform.
+#####################################################
+### Bloco principal do Terraform com os providers ###
+### e versoes utilizadas no projeto               ###
+#####################################################
 terraform {
   required_version = "1.0.10"
 
@@ -22,7 +25,7 @@ terraform {
   }
 }
 
-# Declarando a regiao
+# Declarando a regiao a ser utilizada
 provider "aws" {
   region = var.aws_region
 }

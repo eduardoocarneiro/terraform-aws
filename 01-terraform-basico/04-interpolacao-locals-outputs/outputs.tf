@@ -1,4 +1,7 @@
-# Arquivo de outputs que serao mostrados na tela ao final do "terraform apply"
+#################################################
+### Arquivo com as saidas que serao mostradas ###
+### na tela ao final do "terraform apply"     ###
+#################################################
 output "bucket_name" {
   value = aws_s3_bucket.this.bucket
 }

@@ -1,4 +1,7 @@
-# Core do Terraform
+#####################################################
+### Bloco principal do Terraform com os providers ###
+### e versoes utilizadas no projeto               ###
+#####################################################
 terraform {
   required_version = "1.0.10"
 
