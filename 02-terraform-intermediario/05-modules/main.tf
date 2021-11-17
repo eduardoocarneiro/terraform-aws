@@ -15,9 +15,14 @@ terraform {
 }
 
 provider "aws" {
-  region = var.aws_region
+  region = "us-east-1"
 }
 
 resource "random_pet" "this" {
-    length = 2
+  length = 2
+}
+
+module "bucket" {
+  source = "./s3_module"
+  name   = random_pet.this.id
 }
